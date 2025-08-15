@@ -1,0 +1,433 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Raj Singh • Full-Stack Developer & Problem Solver</title>
+  <meta name="description" content="Raj Singh — Full-Stack Developer & Problem Solver. Final-year B.Tech CSE. Portfolio, skills, projects and contact." />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='0.9em' font-size='90'>⚡</text></svg>">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+</head>
+<body>
+  <!-- Header -->
+  <header class="site-header">
+    <nav class="nav container" aria-label="Primary">
+      <a class="brand" href="#home" aria-label="Raj Singh Home">
+        <span class="logo">RS</span>
+        <span class="brand-text">Raj Singh</span>
+      </a>
+
+      <button class="nav-toggle" aria-controls="nav-menu" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="bar"></span><span class="bar"></span><span class="bar"></span>
+      </button>
+
+      <ul id="nav-menu" class="nav-menu">
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#achievements">Achievements</a></li>
+        <li><a href="#education">Education</a></li>
+        <li><a href="#certifications">Certifications</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a class="cta" href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Hero -->
+  <main id="home">
+    <section class="hero container">
+      <div class="hero-copy">
+        <p class="kicker">Full-Stack Developer & Problem Solver • Final-year B.Tech CSE</p>
+        <h1>Hi, I’m <span class="accent">Raj Singh</span>.</h1>
+        <p class="lead">
+          I design and build fast, accessible web apps and love tackling complex DSA problems.
+          Let’s turn ideas into elegant, reliable products.
+        </p>
+        <div class="cta-row">
+          <a class="btn primary" href="#projects">View Projects📂</a>
+          <a class="btn ghost" href="https://codolio.com/profile/raj_singh_404" >Coding Stats📊</a>
+          <a class="btn linklike" href="https://www.linkedin.com/in/raj-singh-b9a16432a/" >LinkedIn🔗</a>
+        </div>
+
+        <!-- <ul class="badges" aria-label="Highlights">
+          <li>1550 LeetCode</li>
+          <li>2⭐ CodeChef</li>
+          <li>5⭐ HackerRank (Problem Solving)</li>
+          <li>300+ DSA Problems</li>
+        </ul> -->
+      </div>
+
+      <div class="hero-art" aria-hidden="true">
+        <!-- Decorative SVG with accent gradient (teal/blue like the reference) -->
+        <svg viewBox="0 0 420 420" role="img" aria-label="Decorative">
+          <defs>
+            <linearGradient id="g1" x1="0" x2="1" y1="0" y2="1">
+              <stop offset="0%" stop-color="currentColor" stop-opacity="0.15"/>
+              <stop offset="100%" stop-color="currentColor" stop-opacity="0.45"/>
+            </linearGradient>
+          </defs>
+          <circle cx="120" cy="120" r="90" fill="url(#g1)"/>
+          <rect x="220" y="210" width="170" height="130" rx="18" fill="currentColor" opacity="0.09"/>
+          <circle cx="320" cy="110" r="60" fill="currentColor" opacity="0.07"/>
+        </svg>
+      </div>
+    </section>
+
+    <!-- About -->
+    <!-- <section id="about" class="container section">
+      <h2>About</h2>
+      <p>
+        I’m a final-year CSE student focused on modern frontend engineering and solid computer science fundamentals.
+        I enjoy translating complex requirements into clean, intuitive interfaces. Outside of coding, I love cricket and team activities.
+      </p>
+      <div class="cards two">
+        <article class="card">
+          <h3>Core CS</h3>
+          <ul>
+            <li>Data Structures & Algorithms (DSA)</li>
+            <li>Object-Oriented Programming (OOP)</li>
+            <li>Operating Systems (OS)</li>
+            <li>Computer Networks (CN)</li>
+          </ul>
+        </article>
+        <article class="card">
+          <h3>What I’m Looking For</h3>
+          <p>Full-time / Internship roles in Frontend or Full-Stack development.</p>
+        </article>
+      </div>
+    </section> -->
+
+
+     <section id="about" class="about-section">
+    <div class="about-container">
+      <div class="about-text">
+        <h2>About Me</h2>
+        <p>
+          I'm a passionate Computer Science student at ABES Engineering College with a strong foundation in full-stack development and problem-solving.  
+          Currently maintaining an 8.0 CGPA while actively contributing to technical initiatives and leading innovative projects.
+        </p>
+        <p>
+          My experience spans from developing AI-integrated SaaS platforms to creating visually appealing web applications.  
+          I enjoy solving complex problems and building user-centric applications that make a real impact.
+        </p>
+      </div>
+      <div class="about-contact">
+        <div>📧 <a href="mailto:raj.singh@example.com">raj.singh@example.com</a></div>
+        <div>📱 <a href="tel:+917000000000">+91 7000000000</a></div>
+        <div>📍 Ghaziabad, Uttar Pradesh</div>
+        <div>💼 <a href="https://linkedin.com/in/rajsingh" target="_blank">LinkedIn</a></div>
+        <div>💻 <a href="https://github.com/rajsingh" target="_blank">GitHub</a></div>
+      </div>
+    </div>
+  </section>
+    <!-- Skills -->
+    <!-- <section id="skills" class="container section">
+      <h2>Skills</h2>
+      <div class="skill-grid">
+        <div>
+          <h3>Frontend</h3>
+          <ul>
+            <li>HTML5, CSS3 (Flex/Grid, Responsive)</li>
+            <li>JavaScript (ES6+), React.js</li>
+            <li>Accessibility (a11y), Performance</li>
+          </ul>
+        </div>
+        <div>
+          <h3>Backend & DB</h3>
+          <ul>
+            <li>Node.js (Basics), REST APIs</li>
+            <li>SQL, CRUD Operations</li>
+            <li>LocalStorage, Auth (basic)</li>
+          </ul>
+        </div>
+        <div>
+          <h3>Tools</h3>
+          <ul>
+            <li>Git & GitHub</li>
+            <li>VS Code, Chrome DevTools</li>
+            <li>Figma (basics)</li>
+          </ul>
+        </div>
+      </div>
+    </section> -->
+
+    <!-- Skills Section -->
+<section id="skills" class="skills-section">
+  <h2 class="section-title">Skills</h2>
+  <div class="skills-container">
+    
+    <div class="skill-card">
+      <h3>Programming Languages</h3>
+      <ul>
+        <li>Java</li>
+        <li>JavaScript</li>
+        <li>HTML</li>
+        <li>C Language</li>
+      </ul>
+    </div>
+
+    <div class="skill-card">
+      <h3>Frameworks</h3>
+      <ul>
+        <li>React.js</li>
+        <li>Node.js</li>
+        <li>Express.js</li>
+        <li>Tailwind CSS</li>
+      </ul>
+    </div>
+
+    <div class="skill-card">
+      <h3>Databases</h3>
+      <ul>
+        <li>MongoDB</li>
+        <li>SQL</li>
+        <li>PostgreSQL</li>
+      </ul>
+    </div>
+
+    <div class="skill-card">
+      <h3>Tools</h3>
+      <ul>
+        <li>VS Code</li>
+        <li>GitHub</li>
+        <li>XAMPP</li>
+      </ul>
+    </div>
+
+  </div>
+</section>
+
+
+    <!-- Achievements -->
+    <section id="achievements" class="container section">
+      <h2>Achievements</h2>
+      <ul class="achievement-list">
+        <li><strong>LeetCode:</strong> 1550 rating</li>
+        <li><strong>CodeChef:</strong> 2-Star</li>
+        <li><strong>HackerRank:</strong> 5-Star Problem Solving</li>
+        <li><strong>Problems Solved:</strong> 300+ across LeetCode, CodeChef, GFG, Codeforces, Coding Ninjas</li>
+      </ul>
+    </section>
+
+    <!-- Education -->
+    <!-- <section id="education" class="container section">
+      <h2>Education</h2>
+      <div class="cards two">
+        <article class="card">
+          <h3>B.Tech — Computer Science & Engineering</h3>
+          <p class="meta">ABES Engineering College • Final Year</p>
+          <p>Coursework: DSA, OOP, OS, CN. Active in competitive programming and web development.</p>
+        </article>
+        <article class="card">
+          <h3>Highlights</h3>
+          <ul>
+            <li>Built multiple responsive React apps</li>
+            <li>Led small project teams</li>
+            <li>Participated in coding contests</li>
+          </ul>
+        </article>
+      </div>
+    </section> -->
+
+     <!-- Education Section -->
+  <section id="education">
+    <h2 class="section-title">Education</h2>
+
+    <div class="education-card">
+      <div class="icon">🎓</div>
+      <div class="details">
+        <h3>B.Tech Computer Science</h3>
+        <p>ABES Engineering College, Ghaziabad</p>
+        <p class="date">July 2022 - July 2026</p>
+        <p><strong>CGPA:</strong> 8.0</p>
+      </div>
+    </div>
+
+    <div class="education-card">
+      <div class="icon">🎓</div>
+      <div class="details">
+        <h3>Intermediate (PCM)</h3>
+        <p>Ram Kishan Institute, Ghaziabad</p>
+        <p class="date">April 2021 - March 2022</p>
+        <p><strong>Percentage:</strong> 90%</p>
+      </div>
+    </div>
+
+    <div class="education-card">
+      <div class="icon">🎓</div>
+      <div class="details">
+        <h3>Secondary Education</h3>
+        <p>Ram Kishan Institute, Ghaziabad</p>
+        <p class="date">April 2019 - March 2020</p>
+        <p><strong>Percentage:</strong> 92%</p>
+      </div>
+    </div>
+  </section>
+
+
+    <!-- Certifications -->
+    <section id="certifications" class="container section">
+      <h2>Certifications</h2>
+      <div class="cards two">
+        <article class="card">
+          <h3>HackerRank — Python (Intermediate)</h3>
+          <p class="meta"><a href="#" aria-label="Python Certificate Link">View Certificate ↗</a></p>
+        </article>
+        <article class="card">
+          <h3>HackerRank — SQL (Basic)</h3>
+          <p class="meta"><a href="#" aria-label="SQL Certificate Link">View Certificate ↗</a></p>
+        </article>
+      </div>
+    </section>
+
+    <!-- Projects -->
+    <!-- <section id="projects" class="container section">
+      <h2>Projects</h2>
+      <div class="project-grid">
+        <article class="project">
+          <div class="project-head">
+            <h3>Personal Employee Management System</h3>
+            <span class="meta">June 2025 – July 2025 • React, LocalStorage, CRUD</span>
+          </div>
+          <p>Role-based authentication with task assignment and CRUD features. Responsive UI with a focus on performance and usability.</p>
+          <div class="project-links">
+            <a href="#" aria-label="Live Link">Live ↗</a>
+            <a href="#" aria-label="GitHub Repo">GitHub ↗</a>
+          </div>
+        </article>
+
+        <article class="project">
+          <div class="project-head">
+            <h3>Code Tracker Dashboard</h3>
+            <span class="meta">2025 • React</span>
+          </div>
+          <p>Tracks solved problems across LeetCode, CodeChef, Codeforces, GFG, and Coding Ninjas with category filters and platform-wise stats.</p>
+          <div class="project-links">
+            <a href="#" aria-label="Live Link">Live ↗</a>
+            <a href="#" aria-label="GitHub Repo">GitHub ↗</a>
+          </div>
+        </article>
+      </div>
+    </section> -->
+
+
+
+
+    <section id="projects" class="projects-section">
+  <h2 class="section-title">Featured Projects</h2>
+
+  <div class="projects-grid">
+
+    <!-- Project 1 -->
+    <div class="project-card">
+      <h3 class="project-title">
+        AI Website Builder
+        <span class="project-status">In Development</span>
+        <a href="#" target="_blank" class="project-link">
+          <i class="fas fa-external-link-alt"></i>
+        </a>
+      </h3>
+      <p class="project-description">
+        Developing an AI-integrated SaaS platform that enables users to build websites using artificial intelligence with machine learning algorithms for automated website generation.
+      </p>
+      <div class="project-tags">
+        <span>React.js</span>
+        <span>Node.js</span>
+        <span>AI Integration</span>
+        <span>SaaS</span>
+      </div>
+    </div>
+
+    <!-- Project 2 -->
+    <div class="project-card">
+      <h3 class="project-title">
+        EasyFeet E-commerce
+        <a href="#" target="_blank" class="project-link">
+          <i class="fas fa-external-link-alt"></i>
+        </a>
+      </h3>
+      <p class="project-description">
+        Full-stack e-commerce website for shoe retail with complete shopping functionality, user authentication, product catalog, and admin panel for inventory management.
+      </p>
+      <div class="project-tags">
+        <span>React.js</span>
+        <span>Node.js</span>
+        <span>MongoDB</span>
+        <span>Express.js</span>
+      </div>
+    </div>
+
+    <!-- Project 3 -->
+    <div class="project-card">
+      <h3 class="project-title">
+        Currency Converter
+        <a href="#" target="_blank" class="project-link">
+          <i class="fas fa-external-link-alt"></i>
+        </a>
+      </h3>
+      <p class="project-description">
+        Dynamic currency converter with real-time exchange rate calculations, integrated with third-party APIs for accurate and up-to-date currency conversion rates.
+      </p>
+      <div class="project-tags">
+        <span>JavaScript</span>
+        <span>HTML</span>
+        <span>CSS</span>
+        <span>React.js</span>
+        <span>API Integration</span>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+
+    <!-- Contact -->
+    <section id="contact" class="container section">
+      <h2>Contact</h2>
+      <div class="contact-grid">
+        <form class="contact-form" name="contact" onsubmit="return handleSubmit(event)">
+          <div class="field">
+            <label for="name">Name</label>
+            <input id="name" name="name" required />
+          </div>
+          <div class="field">
+            <label for="email">Email</label>
+            <input id="email" name="email" type="email" required />
+          </div>
+          <div class="field">
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="5" required></textarea>
+          </div>
+          <button class="btn primary" type="submit">Send</button>
+          <p class="form-note">This demo uses client-side validation only — connect your email service or backend.</p>
+        </form>
+
+        <aside class="contact-aside">
+          <ul class="social">
+            <li><a href="https://github.com/rajsingh" target="_blank" rel="noopener">GitHub</a></li>
+            <li><a href="https://linkedin.com/in/rajsingh" target="_blank" rel="noopener">LinkedIn</a></li>
+            <li><a href="mailto:rajsingh@example.com">rajsingh@example.com</a></li>
+            <li><a href="assets/Resume.pdf" target="_blank" rel="noopener">Resume</a></li>
+          </ul>
+          <p class="small">Open to Frontend / Full-stack roles. Based in India.</p>
+        </aside>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p>© <span id="year"></span> Raj Singh • Built with HTML, CSS & JS</p>
+      <a href="#home" class="to-top" aria-label="Back to top">↑</a>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
